@@ -3,6 +3,23 @@
 // what the key should be in the secret message they’ll provide at runtime. We shouldn’t necessarily assume that the user’s key is going to be a number;
 //though you may assume that, if it is a number, it will be a positive integer.
 
+
+//Here are a few examples of how the program might work. For example, if the user inputs a key of 1 and a plaintext of HELLO: It's going to move each letter in 
+//the plaintext one space away from their current positions in the alphabetical system. So "I" is after "H", "F" is after "E", and so on.
+
+//$ ./caesar 1
+//plaintext:  HELLO
+//ciphertext: IFMMP
+//Here’s how the program might work if the user provides a key of 13 and a plaintext of hello, world:
+
+//$ ./caesar 13
+//plaintext:  hello, world
+//ciphertext: uryyb, jbeyq
+//Notice that neither the comma nor the space were “shifted” by the cipher. Only rotate alphabetical characters!
+
+
+
+
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
