@@ -1,3 +1,10 @@
+// Hello guys this is a program that prompts a cashier for the number of cents that a customer 
+//is owed and then prints the smallest number of coins with which that change can be made.
+
+//So basically, the program asks the cahier for the number of cents to give the customer,
+//then prints out the smallest number of coins(quarter, dime, nickel, pennie) with which the change to give the customer can be made, i.e 
+//the smallest number of coins which will equal the amount(change) owed.
+
 #include <cs50.h>
 #include <stdio.h>
 
