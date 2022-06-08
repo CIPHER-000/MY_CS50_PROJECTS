@@ -1,3 +1,15 @@
+//This is a program that prompts the user for a credit card number and then reports (via printf) whether it is a valid American Express,
+//MasterCard, or Visa card number, per the definitions of each’s format herein. 
+
+//A simple example:
+
+//$ ./credit
+//Number: 4003600000000014
+//VISA
+
+//Don't worry you can try your own credit card numbers...
+
+
 #include <stdio.h>
 #include <cs50.h>
 #include <math.h>
