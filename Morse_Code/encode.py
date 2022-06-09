@@ -1,3 +1,5 @@
+//This program encrypts a message Using Morse Code
+
 def to_letter_text(text):
    
     code = {
