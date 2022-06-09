@@ -1,3 +1,5 @@
+## This program Decodes an Encrypted text(a Morse Code) into readable text.
+
 import re
 def to_letter_text(morse_code):
    
